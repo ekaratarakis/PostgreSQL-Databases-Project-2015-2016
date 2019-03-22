@@ -26,4 +26,16 @@ This database can support the needs for skills promotions, professional networki
 - During the insertion or update of new advertisements for job seeking there must be created messages to all the users who offer that kind of job.
 - If a user performs an insertion to the system and his subscription ha expired there must be erased all the advertisements for job seeking and for job offering that he has submit. Additionally, the deletion of an advertisement must triger the insertion of all the information for that advertisement in a matrix **log** that we have to create.
 ## Section 2 : Data Recovery
+- Find users that where classmates with a specific user and they are not in his professional network yet. Classmates are consider all the people that stydied in the same college at the same time with the specific user.
+- Find the users that are connected with a connection degree n (n=1, n=2, n=3) with a specific user.
+- Find users that have submitted at least 2 articles.
+- Find users that heve commented all the articles submitted by a specific user.
+- Print articles and the number of comments per article.
+- Find the educational level of all users who have submitted articles that have number of comments greater from the median number of comments per article.
+- Find pairs <advertisement for job seeking, advertisement for job offering>, where the entries job type, industry, are the same and the entries salary are different up to (+/-) 10%.
+- Find the professional network of a specific user.
+
+
+
+
 
