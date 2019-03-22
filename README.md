@@ -34,6 +34,12 @@ This database can support the needs for skills promotions, professional networki
 - Find the educational level of all users who have submitted articles that have number of comments greater from the median number of comments per article.
 - Find pairs <advertisement for job seeking, advertisement for job offering>, where the entries job type, industry, are the same and the entries salary are different up to (+/-) 10%.
 - Find the professional network of a specific user.
+## Calculations
+- Number of comments for every user.
+- Find the median of salary in advertisements for job seeking from users who have declare capability for working from far away.
+- Total number of messages per month.
+- Median number of days of response in recommendation requests that have been answered.
+- Print users with the largest number of recommendation letters.
 
 
 
