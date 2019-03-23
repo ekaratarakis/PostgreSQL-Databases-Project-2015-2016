@@ -40,6 +40,12 @@ This database can support the needs for skills promotions, professional networki
 - Total number of messages per month.
 - Median number of days of response in recommendation requests that have been answered.
 - Print users with the largest number of recommendation letters.
+## Transactions
+Now what happens if the social networking service database increases in users and we are asked to implement some restrictions in usage for every user which define that every user can accept only 10 messages, 5 connection applications and 5 recommendation requests per day. Additionally, the system is designed to enreach a new service which will be available for all the users of the social networking service database. We must create that new service as a transaction which will provide to an authorised administrator the capability to define a new time period (start and end date) when there will take place the operations below in the context of the trasnaction.
+* Begin transaction.
+* Find all members that have made comments on articles on that specific time period.
+* For such a member and for every article that he has made a comment there must be performed the following operations
+    1.fsvfsvfds
 
 
 
