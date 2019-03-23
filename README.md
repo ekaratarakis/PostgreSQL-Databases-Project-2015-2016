@@ -45,7 +45,16 @@ Now what happens if the social networking service database increases in users an
 * Begin transaction.
 * Find all members that have made comments on articles on that specific time period.
 * For such a member and for every article that he has made a comment there must be performed the following operations
-    1.fsvfsvfds
+  - If the author of the article is connected to the specific user with connection degree 1 then,
+    - If the user and the author have worked at the same time in the same company in the past a request will be created from the author to the user for a recommendation letter.
+    - Endorsements will be inserted automatically from the author to the user for their common interests.
+    - A thank you message will be sent automatically from the author to the commenter for the comments.
+  - If the author of the article is connected to the specific user with connection degree 2 then,
+    - A message will be sent automatically from the author containing the title of the last paper (matrix experience) with pasted (concatenation ||) the short resume which will accompany a connection request. 
+    - A thank you message will be sent automatically from the author to the commenter for the comments.
+  - If the user is not a member of the professional network of the author then,
+    - A message will be sent automatically to the author having all the personal data of the user and the number of articles he has published in the same category.
+    - A thank you message will be sent automatically from the author to the commenter for the comments.
 
 
 
