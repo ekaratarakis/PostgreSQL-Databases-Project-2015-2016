@@ -55,6 +55,13 @@ Now what happens if the social networking service database increases in users an
   - If the user is not a member of the professional network of the author then,
     - A message will be sent automatically to the author having all the personal data of the user and the number of articles he has published in the same category.
     - A thank you message will be sent automatically from the author to the commenter for the comments.
+  - In case of an error occurs during these actions due to the applicable space-per-user limitations, all actions for that particular user must be recalled.
+* During the execution of the transaction information must be stored about the number of messages and recommendation requests that have been created. If this numbers leads to double the total number of messages or recommendation requests for that day then all actions will be canseled. In case of no messages or recommendation requests for a day, the transaction will be executed.
+* Confirm the transaction.
+## Indices and Clustering
+**Indexing** and **clustering** ara two very important and useful techniques for optimizing the execution time of the querries in a database and consecuently in the section 2 of data recovery. Both of these techniques were implemented in this social networking service database in order to optimize the performance of the querries.
+## External application using JDBC protocol
+Now the goal is to build an external application in Java in order to export information about the functionality of the database and communicate with the database using the JDBC protocol. The external application was built in the **eclipse** environment which was connected to the PostgreSQL and the database. Also, the external application performs all kind of tasks since it can begin a transaction, cansel or confirm a transaction, find the professional network of the user with connection degree n, insert comment for a specific article and send message to another user. 
 
 
 
